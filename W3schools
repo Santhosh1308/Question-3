@@ -1,0 +1,118 @@
+#clear method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+computer.clear()
+
+print(computer)
+----------------------------------------
+#copy method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+a = computer.copy()
+
+print(computer)
+----------------------------------------
+#fromkeys
+a = ('hello', 'Hola')
+b = ":)"
+
+method = dict.fromkeys(a, b)
+
+print(method)
+---------------------------------------
+#get method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+a = computer.get("model")
+
+print(a)
+--------------------------------------
+#items method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+a = computer.items()
+
+print(a)
+--------------------------------------
+#Keys method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+a = computer.keys()
+
+print(a)
+-------------------------------------
+#pop method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+computer.pop("model")
+
+print(computer)
+-------------------------------------
+#popitem method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+computer.popitem()
+
+print(computer)
+------------------------------------
+#setdefault method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+a = computer.setdefault("model")
+
+print(a)
+------------------------------------
+#Update method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+computer.update({"color": "grey"})
+
+print(computer)
+-----------------------------------
+#Values method
+computer = {
+  "brand": "Lenovo",
+  "model": "Ideapad",
+  "year modified": 2020
+}
+
+a = computer.values()
+
+print(a)
+
